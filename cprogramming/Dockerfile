@@ -5,7 +5,7 @@ FROM gcc:latest
 WORKDIR /app
 
 # Copy all files into the container
-COPY ./code/* /app
+COPY ./code /app
 
 # Default command to keep the container running
 CMD ["bash"]
